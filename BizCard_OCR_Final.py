@@ -72,8 +72,8 @@ def extract_information(image_bytes):
 
 #-----------------------------------Move BiZCard Data to SQL and Update-------------------------------------------------
 # Connect to the database
-cnx = pymysql.connect(user='root',
-                      password='Password',
+cnx = pymysql.connect(user=' ',
+                      password=' ',
                       host='127.0.0.1',
                       database='bizCard_db')
 cursor = cnx.cursor()
